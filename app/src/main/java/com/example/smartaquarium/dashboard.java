@@ -31,7 +31,7 @@ public class dashboard extends AppCompatActivity {
         /*for (int i = 0; i < images.length; i++){
             flipperImages(images[i]);
         }*/
-
+// hore
         for (int image: images){
             flipperImages(image);
         }
