@@ -7,41 +7,67 @@
     android:background="#D3EAF6"
     tools:context=".dashboard">
 
-    <ViewFlipper
-        android:id="@+id/imageflip"
+    <ImageView
+        android:id="@+id/logo_menu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logopolos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/katafiturdua"
+        android:layout_width="411dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/logo_menu"
+        android:layout_marginTop="-19dp"
+        android:src="@drawable/garisfiturdua" />
+
+    <TextView
+        android:id="@+id/tekspembuka"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:background="#D3EAF6" />
-
-    <Button
-        android:id="@+id/buttonpakan"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/imageflip"
-        android:text="Pakan Ikan"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo_menu"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/mouse_memoirs"
+        android:text="Smart Aquarium"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:fontFamily="casual"
-        android:textSize="20sp"
-        android:textColor="#D3EAF6"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/custom_button"
-        android:textAllCaps="false"
-        />
+        android:typeface="sans" />
 
-    <Button
-        android:id="@+id/buttonbersih"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/buttonpakan"
-        android:text="Bersih Bersih"
-        android:textStyle="bold"
-        android:textColor="#D3EAF6"
-        android:fontFamily="casual"
-        android:textSize="20sp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/custom_button"
-        android:textAllCaps="false"
-        />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_menu"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        android:background="#000000"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/tombolfeed" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="#D3EAF6"
+        app:srcCompat="@drawable/tombolkadar" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="#D3EAF6"
+        app:srcCompat="@drawable/tombolclean" />
 
 </RelativeLayout>
