@@ -4,23 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PakanIkan">
+    tools:context=".PakanIkan"
+    android:background="#D3EAF6">
 
-    <RelativeLayout
-        android:id="@+id/rl_box"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#87CEFA"/>
+    <Button
+        android:id="@+id/buttonwaktu"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="ATUR WAKTU"
+        android:fontFamily="@font/mouse_memoirs"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="513dp"
+        />
 
-    <TextView
-        android:layout_width="292dp"
-        android:layout_height="40dp"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="-30dp"
-        android:gravity="center"
-        android:text="Menu Pakan Ikan"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+    <Button
+        android:id="@+id/buttonwaktu2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="ATUR WAKTU"
+        android:fontFamily="@font/mouse_memoirs"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonwaktu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="513dp"
+        />
+
+    <Button
+        android:id="@+id/buttonwaktu3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="ATUR WAKTU"
+        android:fontFamily="@font/mouse_memoirs"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonwaktu2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="513dp"
+        />
+
+    <Button
+        android:id="@+id/btapply"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Apply"
+        android:fontFamily="@font/mouse_memoirs"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/buttonwaktu3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="513dp"
+        />
+
 
 </RelativeLayout>

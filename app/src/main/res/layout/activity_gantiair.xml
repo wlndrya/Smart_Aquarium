@@ -9,12 +9,50 @@
 
     <ImageView
         android:id="@+id/logo_kadar"
-        android:layout_width="141dp"
-        android:layout_height="166dp"
-        android:src="@drawable/logocleaning"
+        android:layout_width="290dp"
+        android:layout_height="150dp"
+        android:background="@drawable/custom_info"
+        android:layout_marginTop="220dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
         />
+
+    <TextView
+        android:id="@+id/apakahkamutahu"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/logo_kadar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="152dp"
+        android:fontFamily="@font/mouse_memoirs"
+        android:text="Apakah Kamu Tahu?"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isi_info"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_alignBottom="@+id/logo_kadar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="-4dp"
+        android:fontFamily="@font/mouse_memoirs"
+        android:gravity="fill_vertical"
+        android:text="Penggantian air akuarium yang paling baik dilakukan secara teratur (setidaknya satu bulan sekali) dengan penggantian air hanya 10-20% dari total volume air. "
+        android:textColor="@color/black"
+        android:textSize="21dp" />
 
     <Button
         android:id="@+id/button"

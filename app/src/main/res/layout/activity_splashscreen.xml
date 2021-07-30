@@ -11,9 +11,9 @@
 
 
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:src="@drawable/logopolos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/newlogoo"
         />
 
 </LinearLayout>

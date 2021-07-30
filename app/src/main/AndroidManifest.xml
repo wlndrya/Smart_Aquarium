@@ -9,20 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartAquarium">
-        <activity android:name=".prosesgantiair"></activity>
-        <activity android:name=".gantiair" />
-        <activity android:name=".kadarair" />
-        <activity android:name=".PakanIkan" />
-        <activity android:name=".Home" />
-        <activity
-            android:name=".dashboard"
-            android:label="Dashboard" />
+
         <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard">
+        </activity>
+        <activity android:name=".PakanIkan">
         </activity>
     </application>
 

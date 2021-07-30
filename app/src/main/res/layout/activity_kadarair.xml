@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/logo_kadar"
-        android:layout_width="141dp"
-        android:layout_height="166dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/logokadar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
@@ -32,9 +32,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
         android:fontFamily="@font/mouse_memoirs"
-        android:text="Deteksi Kadar Air"
+        android:text="Cek Tingkat Kekeruhan dan PH Air"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         tools:ignore="UnknownId" />
 
@@ -62,7 +62,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/mouse_memoirs"
-        android:text="Tingkat PH Air :"
+        android:text="PH Air :"
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="25sp"
@@ -76,7 +76,7 @@
         android:layout_below="@+id/tingkatphair"
         android:layout_centerInParent="true"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/mouse_memoirs"
         android:text="Kondisi Air Saat Ini :"
         android:textAlignment="textStart"
@@ -84,18 +84,5 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:typeface="sans" />
-
-    <ImageView
-        android:id="@+id/garisfiturdua"
-        android:layout_width="411dp"
-        android:layout_height="166dp"
-        android:src="@drawable/garisfiturdua"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/katafiturdua"
-        android:layout_marginTop="300dp"
-
-        />
-
-
 
 </RelativeLayout>
